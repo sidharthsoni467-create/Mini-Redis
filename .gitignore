@@ -1,0 +1,11 @@
+# binaries
+miniredis-server
+miniredis-cli
+*.exe
+
+# objects
+*.o
+*.obj
+
+# runtime state — the WAL is a runtime artifact, never commit it
+*.wal
